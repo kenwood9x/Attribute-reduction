@@ -60,6 +60,7 @@ if __name__ == "__main__":
         print(Fx.evaluate(Wx,10))
         W.append(Wx)
         data = np.vstack((data, DS_split[i]))
+    print("time = ",(W[0][0]+W[1][0]+W[2][0]+W[3][0]))
 
     
     
