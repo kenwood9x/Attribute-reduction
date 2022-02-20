@@ -66,4 +66,4 @@ if __name__ == "__main__":
         W.append(Wx)
         print(Wx)
         print(Fx.evaluate(Wx,10))
-    print("time = ",(W[1][0]+W[2][0]+W[3][0]+W[4][0]))
+
