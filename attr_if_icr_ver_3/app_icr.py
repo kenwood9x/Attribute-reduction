@@ -6,13 +6,13 @@ from intuition_fuzzy import IntuitiveFuzzy
 from sklearn.preprocessing import LabelEncoder
 from sklearn import preprocessing
 
-data_file = "C:/Users/M4800/Documents/Zalo Received Files/Small Data/heart`.csv"
+data_file = "C:/Users/M4800/Documents/Zalo Received Files/Small Data/wine.csv"
 #att_nominal_cate = ["a1","a3","a4","a6","a7","a9","a10","a12","a14","a15","a17","a19","a20","d"] #german#
 #att_nominal_cate = ["a1","a2","a3","a8","d"]
 #att_nominal_cate = ["a1","a2","d"]
 #att_nominal_cate = ["quality"] #winequality-red
 #att_nominal_cate = ["class"]  #forest
-att_nominal_cate = ["d"] 
+att_nominal_cate = ["Wine"] 
 min_max_scaler = preprocessing.MinMaxScaler()
 
 
